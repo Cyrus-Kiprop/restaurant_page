@@ -9,10 +9,6 @@ Element.prototype.createElem = function createElem() {
   return createdElement;
 };
 
-Element.prototype.onClick = function onClick(event) {
-  event.preventDefault();
-};
-
 Element.prototype.addText = function addText(textContent) {
   const text = document.createTextNode(textContent);
   return this.appendchild(text);

@@ -1,5 +1,6 @@
 import navUI from './navUI.js';
 import staticPages from './linkContent.js';
+import footer from './footer.js';
 
 function restaurant() {
   // get the container
@@ -23,6 +24,7 @@ function restaurant() {
 
   // appending all the children to the container
   opacity.appendChild(contentWrapper);
+  opacity.appendChild(footer());
   container.appendChild(opacity);
 }
 
