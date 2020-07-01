@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/extensions
 import navItems from './navItems.js';
 
 const utils = (function navPageUtils() {
@@ -23,7 +24,7 @@ const utils = (function navPageUtils() {
     navWrapper,
     logo,
   };
-}());
+})();
 
 const handleClick = ({ target }) => {
   const navItems = document.querySelectorAll('.nav-item');
