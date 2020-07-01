@@ -14,7 +14,10 @@ const utils = (function navPageUtils() {
   const logo = () => {
     const logo = createElem('a', 'nav-logo logo');
     logo.setAttribute('src', '#');
-    logo.innerText = 'logo';
+
+    const img = createElem('img', 'nav-logo logo');
+    img.setAttribute('src', '../dist/assets/images/restaurant-logo.png');
+    logo.appendChild(img);
     return logo;
   };
 
