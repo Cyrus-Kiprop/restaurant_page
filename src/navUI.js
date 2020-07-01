@@ -7,9 +7,7 @@ const utils = (function navPageUtils() {
     return elementCreated;
   };
 
-  const navWrapper = () => {
-    return createElem('div', 'navbar navbar-dark');
-  };
+  const navWrapper = () => createElem('div', 'navbar navbar-dark');
 
   const logo = () => {
     const logo = createElem('a', 'nav-logo logo');
@@ -25,7 +23,7 @@ const utils = (function navPageUtils() {
     navWrapper,
     logo,
   };
-})();
+}());
 
 const handleClick = ({ target }) => {
   const navItems = document.querySelectorAll('.nav-item');

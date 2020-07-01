@@ -10,12 +10,17 @@ module.export = {
     path: path.resolve(__dirname, 'dist'),
   },
 
+  resolve: {
+    extensions: ['.wasm', '.mjs', '.js', '.json'],
+  },
+
   devtools: 'inline-source-map',
 
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 4000,
+    index: 'dist/index.html',
   },
 
   plugins: [
