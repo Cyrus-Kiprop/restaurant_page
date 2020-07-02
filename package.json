@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config=webpack.prod.js",
     "start:dev": "webpack-dev-server --config=webpack.dev.js --open",
-    "lint": "eslint --fix . && stylelint --fix **/*.css"
+    "lint": "eslint --fix ."
   },
   "repository": {
     "type": "git",
