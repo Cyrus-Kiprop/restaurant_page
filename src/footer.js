@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/extensions
-import utils from './util.js';
+import utils from './util';
 
 const FooterUtils = (function FooterUtils() {
   const copyRight = () => {

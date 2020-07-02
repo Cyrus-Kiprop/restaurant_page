@@ -1,5 +1,6 @@
-// eslint-disable-next-line import/extensions
-import navItems from './navItems.js';
+import navItems from './navItems';
+
+import restaurantLogoImage from '../assets/images/restaurant-logo.png';
 
 const utils = (function navPageUtils() {
   const createElem = (element, classList) => {
@@ -15,7 +16,7 @@ const utils = (function navPageUtils() {
     logo.setAttribute('src', '#');
 
     const img = createElem('img', 'nav-logo logo');
-    img.setAttribute('src', '../dist/assets/images/restaurant-logo.png');
+    img.setAttribute('src', restaurantLogoImage);
     logo.appendChild(img);
     return logo;
   };

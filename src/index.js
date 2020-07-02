@@ -1,9 +1,10 @@
-// eslint-disable-next-line import/extensions
-import navUI from './navUI.js';
-// eslint-disable-next-line import/extensions
-import staticPages from './linkContent.js';
-// eslint-disable-next-line import/extensions
-import footer from './footer.js';
+// Styles
+import './styles/reset.css';
+import './styles/main.css';
+
+import navUI from './navUI';
+import footer from './footer';
+import staticPages from './linkContent';
 
 function restaurant() {
   const container = document.getElementById('content');
