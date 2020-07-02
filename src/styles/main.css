@@ -59,6 +59,7 @@
   color: #c59d5f;
   background-color: rgba(197, 157, 95, 0.2);
 }
+
 .nav-item:hover::before,
 .nav-item.active::before {
   opacity: 1;
@@ -71,7 +72,6 @@
 .content-wrapper {
   border-radius: 5px;
   background-color: rgb(25, 24, 40, 0.7);
-  height: 300px;
   max-width: 1000px;
   margin: auto;
   display: flex;
@@ -86,9 +86,11 @@
   line-height: 2rem;
   height: 70vh;
 }
+
 ._none {
   display: none !important;
 }
+
 .tab-wrapper {
   display: flex;
   flex-direction: column;
