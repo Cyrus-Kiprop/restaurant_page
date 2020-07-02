@@ -74,7 +74,7 @@ Menu Section.
 
 ## Live Demo
 
-Click [ here ](https://afritrend.herokuapp.com/users/sign_in) for a live demo of the app.
+Click [ here ](https://raw.githack.com/Cyrus-Kiprop/restaurant_page/gh-pages/index.html) for a live demo of the app.
 
 ### Built With
 
