@@ -149,7 +149,7 @@ right click on index.html file and open it with the browser or with live server.
 http//localhost:8080
 ```
 
-### Naviagte and Enjoy
+### Navigate and Enjoy
 
 <!-- ROADMAP -->
 
