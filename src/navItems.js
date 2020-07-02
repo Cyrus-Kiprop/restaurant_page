@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/extensions
-import utils from './util.js';
+import utils from './util'
 
 export default function navItems() {
   const items = [];

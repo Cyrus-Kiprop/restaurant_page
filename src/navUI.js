@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/extensions
-import navItems from './navItems.js';
+import navItems from './navItems'
 
 const utils = (function navPageUtils() {
   const createElem = (element, classList) => {
