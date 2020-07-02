@@ -22,7 +22,7 @@ function home() {
 function about() {
   const pageWrapper = new utils.Element(
     'div',
-    'tab-wrapper _none'
+    'tab-wrapper _none',
   ).createElem();
   const aboutElement = new utils.Element('p').createElem();
   aboutElement.innerText = content.about;
@@ -57,7 +57,7 @@ const menus = [
 function menu() {
   const pageWrapper = new utils.Element(
     'div',
-    ' _none tab-wrapper'
+    ' _none tab-wrapper',
   ).createElem();
 
   const menuWrapper = new utils.Element('div', 'menu-wrapper').createElem();

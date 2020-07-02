@@ -46,7 +46,7 @@ const FooterUtils = (function FooterUtils() {
     footerLinks,
     top,
   };
-})();
+}());
 
 function Footer() {
   const footerWrapper = new utils.Element('div', 'footer-wrapper').createElem();

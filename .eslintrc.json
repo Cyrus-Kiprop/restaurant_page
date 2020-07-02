@@ -17,7 +17,8 @@
     "no-use-before-define": [
       "error",
       { "functions": false, "classes": true, "variables": false }
-    ]
+    ],
+    "import/no-extraneous-dependencies": "off"
   },
   "ignorePatterns": ["dist/", "build/"]
 }

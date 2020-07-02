@@ -25,7 +25,7 @@ const utils = (function navPageUtils() {
     navWrapper,
     logo,
   };
-})();
+}());
 
 const handleClick = ({ target }) => {
   const navItems = document.querySelectorAll('.nav-item');
